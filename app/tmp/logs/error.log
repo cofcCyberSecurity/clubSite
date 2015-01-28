@@ -6817,3 +6817,318 @@ Stack Trace:
 #1 /Applications/MAMP/htdocs/CofCCybSec/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(HomesController), Object(CakeRequest))
 #2 /Applications/MAMP/htdocs/CofCCybSec/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-01-28 05:38:40 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 05:39:08 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:27:22 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:27:24 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:27:31 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:29:22 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:29:48 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:32:50 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:32:52 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:32:59 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:33:17 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:33:48 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:33:49 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 06:45:55 Error: Fatal Error (1): Class 'User' not found in [/Applications/MAMP/htdocs/clubSite/app/Controller/UsersController.php, line 12]
+2015-01-28 06:45:55 Error: [FatalErrorException] Class 'User' not found
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'User' no...', '/Applications/M...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'User' no...', '/Applications/M...', 12, Array)
+#2 /Applications/MAMP/htdocs/clubSite/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'User' no...', '/Applications/M...', 12, Array)
+#3 /Applications/MAMP/htdocs/clubSite/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-28 06:52:51 Error: [MissingViewException] View file "/Applications/MAMP/htdocs/clubSite/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Applications/MAMP/htdocs/clubSite/app/View/Users/login.ctp',
+)
+Request URL: /clubSite/users/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /Applications/MAMP/htdocs/clubSite/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /Applications/MAMP/htdocs/clubSite/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /Applications/MAMP/htdocs/clubSite/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-01-28 06:59:27 Error: [MissingPluginException] Plugin User could not be found.
+Exception Attributes: array (
+  'plugin' => 'User',
+)
+Request URL: /clubSite/login
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/lib/Cake/Core/App.php(227): CakePlugin::path('User')
+#1 /Applications/MAMP/htdocs/clubSite/lib/Cake/Core/App.php(549): App::path('Model', 'User')
+#2 [internal function]: App::load('User')
+#3 [internal function]: spl_autoload_call('User')
+#4 /Applications/MAMP/htdocs/clubSite/lib/Cake/Utility/ClassRegistry.php(146): class_exists('User')
+#5 /Applications/MAMP/htdocs/clubSite/lib/Cake/View/Helper/FormHelper.php(171): ClassRegistry::init('User.User', true)
+#6 /Applications/MAMP/htdocs/clubSite/lib/Cake/View/Helper/FormHelper.php(204): FormHelper->_getModel('User.User')
+#7 /Applications/MAMP/htdocs/clubSite/lib/Cake/View/Helper/FormHelper.php(354): FormHelper->_introspectModel('User.User', 'key')
+#8 /Applications/MAMP/htdocs/clubSite/app/View/Users/login.ctp(37): FormHelper->create('User.User', Array)
+#9 /Applications/MAMP/htdocs/clubSite/lib/Cake/View/View.php(948): include('/Applications/M...')
+#10 /Applications/MAMP/htdocs/clubSite/lib/Cake/View/View.php(910): View->_evaluate('/Applications/M...', Array)
+#11 /Applications/MAMP/htdocs/clubSite/lib/Cake/View/View.php(471): View->_render('/Applications/M...')
+#12 /Applications/MAMP/htdocs/clubSite/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#13 /Applications/MAMP/htdocs/clubSite/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#14 /Applications/MAMP/htdocs/clubSite/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-01-28 07:00:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:02:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:03:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:03:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:03:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:06:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:07:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:13:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:13:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:14:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:15:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:15:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:18:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:18:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:18:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:18:32 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-28 07:18:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clubSite/css/bootstrap.css.map
+Stack Trace:
+#0 /Applications/MAMP/htdocs/clubSite/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -116,11 +116,12 @@
                     ?>
                 </li>
                 <li>
-                    <a href="#">
-                        <span class="label-nav">
-                            About
-                        </span>
-                    </a>
+                    <?php
+                    echo $this->Html->link(
+                    "<span class='label-nav'>Login</span>",
+                    array('controller' => 'users', 'action' => 'login'),
+                    array('escape' => false));
+                    ?>
                 </li>
             </ul>
 

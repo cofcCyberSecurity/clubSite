@@ -38,6 +38,7 @@
 	CakePlugin::routes();
 
     Router::connect('/contact', array('controller' => 'homes', 'action' => 'contact'));
+    Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
 
 /**
  * Load the CakePHP default routes. Only remove this if you do not want to use

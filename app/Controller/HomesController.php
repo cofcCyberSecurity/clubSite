@@ -8,6 +8,7 @@
 App::uses('CakeEmail', 'Network/Email');
 
 class HomesController extends AppController{
+
     public function contact(){
         $this -> set(array(
             'title_for_layout' => 'Contact'
@@ -32,7 +33,7 @@ class HomesController extends AppController{
 
     public function officers(){
         $this -> set(array(
-            'title' => 'Officers'
+            'title_for_layout' => 'Officers'
         ));
     }
 }
