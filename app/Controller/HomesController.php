@@ -49,4 +49,15 @@ class HomesController extends AppController{
             'image_paths' => $images
         ));
     }
+
+    public function sponsors(){
+        $dir = new Folder(APP . WEBROOT_DIR . DS . "img" . DS . "sponsor-images");
+
+        $images = $dir -> find();
+
+        $this -> set(array(
+            'title_for_layout' => 'Sponsors',
+            'image_paths' => $images
+        ));
+    }
 }

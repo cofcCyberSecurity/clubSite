@@ -90,11 +90,12 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <span class="label-nav">
-                            Sponsorship
-                        </span>
-                    </a>
+                    <?php
+                    echo $this->Html->link(
+                        "<span class='label-nav'>Sponsors</span>",
+                        array('controller' => '', 'action' => 'sponsors'),
+                        array('escape' => false));
+                    ?>
                 </li>
                 <li>
                     <?php
