@@ -35,25 +35,19 @@ class AppController extends Controller {
         'Session',
         'Auth' => array(
             'loginRedirect' => array(
-                'controller' => '/',
-                'action' => 'index'
-            ),
-            'loginAction' => array(
-                'controller' => '/',
-                'action' => 'index'
+                'controller' => 'officers',
+                'action' => 'dashboard'
             ),
             'logoutRedirect' => array(
-                'controller' => 'users',
-                'action' => 'logout'
+                'controller' => '/',
+                'action' => 'index'
             ),
             'authenticate' => array(
                 'Form' => array(
                     'passwordHasher' => 'Blowfish'
                 )
             ),
-            'authorize' => array(
-                'Actions' => array('actionPath' => 'controllers')
-            )
+            'authorize' => array('Controller')
         )
     );
 
@@ -61,4 +55,13 @@ class AppController extends Controller {
         $this->Auth->allow();
     }
 
+    public function isAuthorized($user) {
+        // Officer can access every action
+        if (isset($user['role']) && $user['role'] === 'officer') {
+            return true;
+        }
+
+        // Default deny
+        return false;
+    }
 }

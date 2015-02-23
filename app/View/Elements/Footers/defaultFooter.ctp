@@ -35,21 +35,8 @@
 
                     <!-- Footer Col. -->
                     <div class="col-md-4 col-sm-4 footer-col">
-                        <div class="footer-title">
-                            Recent Tweets
-                        </div>
-                        <div class="footer-content footer-recent-tweets-container">
-                            <ul class="tweetList footer-recent-tweets">
-                                <li class="tweet_content item">
-                                    <p>"There is a tremendous power to #Focus" Nate DaPore @PeopleMatter </p>
-                                    <p class="timestamp">Nov 21</p>
-                                </li>
-                                <li class="tweet_content item">
-                                    <p>Full room for Nate DaPore! peoplematterhr #entrepreneurship #CHS  #chstech <a href="http://instagram.com/p/vqwKULGxHl/" target="_blank">http://instagram.com/p/vqwKULGxHl/ </a></p>
-                                    <p class="timestamp">Nov 21</p>
-                                </li>
-                            </ul>
-                        </div>
+                        <a class="twitter-timeline" href="https://twitter.com/cofc_cyber" data-widget-id="558389399453696000">Tweets by @cofc_cyber</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                     </div>
                     <!-- //Footer Col.// -->
 

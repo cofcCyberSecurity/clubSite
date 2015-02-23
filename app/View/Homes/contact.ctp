@@ -148,52 +148,10 @@
                                 Contact Us
                             </h3>
                             <div class="sidebar-icon-item">
-                                <i class="icon-phone"></i> 843-953-6905
-                            </div>
-                            <div class="sidebar-icon-item">
                                 <i class="icon-email"></i> cybersecurityclub@cofc.edu
                             </div>
                             <div class="sidebar-icon-item">
                                 <i class="icon-home"></i> 360 Concord St. Charleston, SC 29401
-                            </div>
-                        </div>
-
-                        <div class="sidebar-block">
-                            <h3 class="h3-sidebar-title">
-                                Socials
-                            </h3>
-
-
-                            <div class="social-icons">
-
-                                <ul>
-                                    <li>
-                                        <a href="#" title="yahoo" target="_blank" class="social-media-icon yahoo-icon">yahoo</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="ember" target="_blank" class="social-media-icon ember-icon">ember</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="tumblr" target="_blank" class="social-media-icon tumblr-icon">tumblr</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com/CSatCofC" title="facebook" target="_blank" class="social-media-icon facebook-icon">facebook</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="apple" target="_blank" class="social-media-icon apple-icon">apple</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="lastfm" target="_blank" class="social-media-icon lastfm-icon">lastfm</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="wordpress" target="_blank" class="social-media-icon wordpress-icon">wordpress</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="dropbox" target="_blank" class="social-media-icon dropbox-icon">dropbox</a>
-                                    </li>
-
-                                </ul>
-
                             </div>
                         </div>
                     </div>

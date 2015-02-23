@@ -7,7 +7,6 @@
  */
 
 class UsersController extends AppController{
-
     private function loadUserModel(){
         $this->loadModel('User');
         return new User();
@@ -17,10 +16,8 @@ class UsersController extends AppController{
         $this -> set(array(
             'title_for_layout' => 'Login'
         ));
-
+        
         if ($this->request->is('post')) {
-            debug($this -> Auth -> login());
-            die;
             if ($this->Auth->login()) {
                 return $this->redirect($this->Auth->redirectUrl());
                 // Prior to 2.3 use
@@ -34,5 +31,16 @@ class UsersController extends AppController{
             );
         }
 
+    }
+
+    public function logout(){
+        $this -> autoRender = false;
+
+        if($this -> Auth -> logout()){
+            $this -> redirect(array(
+                'controller' => '/',
+                'action' => 'index'
+            ));
+        }
     }
 }

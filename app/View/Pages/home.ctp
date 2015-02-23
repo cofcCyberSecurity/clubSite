@@ -22,7 +22,7 @@
                      data-y="150"
                      data-speed="200"
                      data-start="800"
-                     data-easing="easeOutCubic" data-end="6000" data-endspeed="500" >Cyber Security Club  College Of Charleston </div>
+                     data-easing="easeOutCubic" data-end="6000" data-endspeed="500" >Cybersecurity Club  College Of Charleston </div>
 
                 <div class="tp-caption slider-text-description sfl str "
                      data-x="443"
@@ -61,7 +61,7 @@
                     <iframe src="//www.youtube.com/embed/N0tcRIZt_gE" width="326" height="255" style='border: 0; frameborder:"0"'></iframe>
                 </div>
                 <div class="tp-caption big_white large_text sft"  data-x="540" data-y="170" data-start="0" data-easing="easeOutBack" >
-                    Cyber Security Club
+                    Cybersecurity Club
                 </div>
 <!--                <div class="tp-caption  revolution-subtext  sfb "  data-x="550" data-y="250" data-start="0" data-easing="easeOutBack" >-->
 <!---->
@@ -89,7 +89,7 @@
 
 <div class="content-wrapper hide-until-loading"><div class="section-content top-body">
     <div class="center-text">
-        <h4 class="h4-section-title">Interested In The Cyber Security Club?</h4>
+        <h4 class="h4-section-title">Interested In The Cybersecurity Club?</h4>
 
         <?php echo $this -> Html -> link('Find Out More',
             array('controller' => '', 'action' => 'contact'),

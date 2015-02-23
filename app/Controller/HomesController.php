@@ -6,6 +6,8 @@
  * Time: 2:03 AM
  */
 App::uses('CakeEmail', 'Network/Email');
+App::uses('Folder', 'Utility');
+App::uses('File', 'Utility');
 
 class HomesController extends AppController{
 
@@ -34,6 +36,17 @@ class HomesController extends AppController{
     public function officers(){
         $this -> set(array(
             'title_for_layout' => 'Officers'
+        ));
+    }
+
+    public function photo_gallery(){
+        $dir = new Folder(APP . WEBROOT_DIR . DS . "img" . DS . "club-images");
+
+        $images = $dir -> find();
+
+        $this -> set(array(
+            'title_for_layout' => 'Photo Gallery',
+            'image_paths' => $images
         ));
     }
 }

@@ -15,11 +15,11 @@ class User extends AppModel {
     }
 
     public function beforeSave($options = array()) {
-        // if ID is not set, we're inserting a new user as opposed to updating
-
-        if (!$this->id) {
+        if (isset($this->data[$this->alias]['password'])) {
             $passwordHasher = new BlowfishPasswordHasher();
-            $this->data[$this->alias]['password'] = $passwordHasher->hash($this->data[$this->alias]['password']);
+            $this->data[$this->alias]['password'] = $passwordHasher->hash(
+                $this->data[$this->alias]['password']
+            );
         }
         return true;
     }
@@ -42,5 +42,13 @@ class User extends AppModel {
             return true;
         else
             return false;
+    }
+
+    function getLastQuery()
+    {
+        $dbo = $this->getDatasource();
+        $logs = $dbo->getLog();
+        $lastLog = end($logs['log']);
+        return $lastLog['query'];
     }
 }
