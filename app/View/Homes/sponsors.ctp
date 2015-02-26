@@ -9,15 +9,22 @@
              data-delay="0.2s">
             <h2 class="h2-section-title">Our Sponsors </h2>
             <ul class="section-clients">
-                <?php
-                /** @var Array $image_paths */
-                foreach($image_paths as $img_path): ?>
-                    <li class="animated" data-animtype="bounceIn" data-animrepeat="0" data-animdelay="0.2s">
-                        <?php echo $this -> Html -> image('sponsor-images/' . $img_path, array(
-                            'class' => 'img-responsive client-image'
+                <li class="animated" data-animtype="bounceIn" data-animrepeat="0" data-animdelay="0.2s">
+                    <a href="http://www.charlestonissa.org/" target="_blank">
+                        <?php echo $this -> Html -> image('sponsor-images/Charleston-ISSA.png', array(
+                            'class' => 'img-responsive client-image',
+                            'atl' => 'Charleston ISSA'
                         ));?>
-                    </li>
-                <?php endforeach;?>
+                    </a>
+                </li>
+                <li class="animated" data-animtype="bounceIn" data-animrepeat="0" data-animdelay="0.4s">
+                    <a href="http://ruraltechfund.org/" target="_blank">
+                        <?php echo $this -> Html -> image('sponsor-images/Rural-Technology-Fund.png', array(
+                            'class' => 'img-responsive client-image',
+                            'atl' => 'Rural Technology Fund'
+                        ));?>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
