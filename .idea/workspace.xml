@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5b76dff-ab4f-4177-b164-4c7ca323f260" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_en-us" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_en-us" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_file_map" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_file_map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_object_map" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_object_map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Homes/sponsors.ctp" afterPath="$PROJECT_DIR$/app/View/Homes/sponsors.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="clubSite.iws" />
@@ -633,7 +629,13 @@
       <option name="project" value="LOCAL" />
       <updated>1424733409610</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added functionality, added sponsor page">
+      <created>1424975185078</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1424975185078</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
